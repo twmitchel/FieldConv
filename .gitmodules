@@ -1,0 +1,6 @@
+[submodule "fcutils/deps/geometry-central"]
+	path = fcutils/deps/geometry-central
+	url = https://github.com/nmwsharp/geometry-central
+[submodule "fcutils/deps/pybind11"]
+	path = fcutils/deps/pybind11
+	url = https://github.com/pybind/pybind11
