@@ -86,7 +86,7 @@ class SHAPESEG(InMemoryDataset):
 
     def __init__(self, root, train=True, transform=None, pre_transform=None,
                  pre_filter=None):
-        super(ShapeSeg, self).__init__(root, transform, pre_transform, pre_filter)
+        super(SHAPESEG, self).__init__(root, transform, pre_transform, pre_filter)
         path = self.processed_paths[0] if train else self.processed_paths[1]
         self.data, self.slices = torch.load(path)
 
