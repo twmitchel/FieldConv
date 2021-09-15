@@ -4,7 +4,7 @@ The official implementation of field convolution from the ICCV 2021 paper and or
 
 <img src="fig/scatter_vs_gather.png" width="80%">
 
-## [[Paper: Field Convolutions for CNNs on Surfaces]](https://arxiv.org/abs/2104.03916)
+## [[Paper: Field Convolutions for Surface CNNs]](https://arxiv.org/abs/2104.03916)
 
 Field convolutions are highly discriminating, flexible, and straight-forward to implement. The goal of this repository is to provide the tools for incorperating field convolutions into arbitrary surface learning frameworks. 
 
