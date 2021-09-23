@@ -12,8 +12,8 @@ Field convolutions are highly discriminating, flexible, and straight-forward to 
   - [Dependencies](#dependencies)
   - [Installation](#installation)
   - [Experiments](#experiments)
-  - [Using field convolutions in your project](#using field convolutions in your project)
-  - [Authorship and acknowledgements](#authorship and acknowledgements)
+  - [Using field convolutions in your project](#using-field-convolutions-in-your-project)
+  - [Authorship and acknowledgements](#authorship-and-acknowledgements)
 
 ## Dependencies
 - [PyTorch >= 1.9](https://pytorch.org)
