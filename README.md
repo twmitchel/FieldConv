@@ -4,7 +4,9 @@ The official implementation of field convolution from the ICCV 2021 paper and or
 
 <img src="fig/scatter_vs_gather.png" width="80%">
 
-## [[Paper: Field Convolutions for Surface CNNs]](https://arxiv.org/abs/2104.03916)
+## [[Paper: Field Convolutions for Surface CNNs]](https://openaccess.thecvf.com/content/ICCV2021/html/Mitchel_Field_Convolutions_for_Surface_CNNs_ICCV_2021_paper.html)
+
+## [[Video]](https://youtu.be/qFvT9X0Fd0s)
 
 Field convolutions are highly discriminating, flexible, and straight-forward to implement. The goal of this repository is to provide the tools for incorperating field convolutions into arbitrary surface learning frameworks. 
 
@@ -64,7 +66,7 @@ then download the [remeshed FAUST dataset](https://www.cs.jhu.edu/~misha/Code/Fi
 Afterwards, run the `correspondence.ipynb` notebook in the root directory. ([Original dataset](http://faust.is.tue.mpg.de/) | [Remeshed](https://github.com/LIX-shape-analysis/GeomFmaps))
 
 #### Feature Matching
-We have contacted the authors of the [Isometric and Non-Isometric Shape Correspondence Benchmark dataset](https://shrec19.cs.cf.ac.uk/) [5] and they plan to make the ground truth correspondences publicly available. We will provide instructions on how to organize and pre-process the dataset so our experiments can be replicated. 
+The authors of the [Isometric and Non-Isometric Shape Correspondence Benchmark dataset](https://shrec19.cs.cf.ac.uk/) [5] have recently made the ground-truth correspondences publicly available.  We will provide instructions on how to organize and pre-process the dataset to replicate our experiments in the future.
 
 #### References
 <small>[1] Zhouhui Lian et al. 2011. SHREC ’11 Track: Shape
@@ -254,11 +256,13 @@ Author: Thomas (Tommy) Mitchel (tmitchel 'at' jhu 'dot' edu)
 
 Please cite our paper if this code or our method contributes to a publication:
 ```
-@article{mitchel2021field,
-  title={Field Convolutions for Surface CNNs},
-  author={Mitchel, Thomas W and Kim, Vladimir G and Kazhdan, Michael},
-  journal={arXiv preprint arXiv:2104.03916},
-  year={2021}
+@InProceedings{Mitchel_2021_ICCV,
+    author    = {Mitchel, Thomas W. and Kim, Vladimir G. and Kazhdan, Michael},
+    title     = {Field Convolutions for Surface CNNs},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {10001-10011}
 }
 ```
 
