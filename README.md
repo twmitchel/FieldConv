@@ -6,7 +6,7 @@ The official implementation of field convolution from the ICCV 2021 paper and or
 
 ## [[Paper: Field Convolutions for Surface CNNs]](https://openaccess.thecvf.com/content/ICCV2021/html/Mitchel_Field_Convolutions_for_Surface_CNNs_ICCV_2021_paper.html)
 
-## [[Video]](https://youtu.be/qFvT9X0Fd0s)
+## [[Video: ICCV 2021 Oral Presentation]](https://youtu.be/qFvT9X0Fd0s)
 
 Field convolutions are highly discriminating, flexible, and straight-forward to implement. The goal of this repository is to provide the tools for incorperating field convolutions into arbitrary surface learning frameworks. 
 
