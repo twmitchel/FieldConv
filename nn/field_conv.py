@@ -9,13 +9,13 @@ from utils.field import softAngle, isOrigin
 
 def weightContribReal(contrib, zonal, spherical, phase, B):
         
-    coeff = torch.cat(( torch.conj(torch.view_as_complex(spherical)), zonal[..., None], torch.view_as_complex(spherical)), dim=3);
+    coeff = torch.cat(( torch.flip(torch.conj(torch.view_as_complex(spherical)), [3]), zonal[..., None], torch.view_as_complex(spherical)), dim=3);
     
     return torch.div( torch.sum( contrib[:, None, ...] * coeff[None, ...], dim=(2, 3, 4)), 2*B+1);
     
 def weightContribOffset(contrib, zonal, spherical, phase, B):
     
-    coeff = torch.cat(( torch.conj(torch.view_as_complex(spherical)), zonal[..., None], torch.view_as_complex(spherical)), dim=3);
+    coeff = torch.cat(( torch.flip(torch.conj(torch.view_as_complex(spherical)), [3]), zonal[..., None], torch.view_as_complex(spherical)), dim=3);
     
 
     weighted = torch.sum( contrib[:, None, ...] * coeff[None, ...], dim=3)
