@@ -1,6 +1,8 @@
-# FieldConv
+# [[New 2024: An improved "V2" JAX implementation is now available]](https://github.com/google-research/google-research/blob/bdf8252755516b72bb7976d83c6fb0cdd8a1f06d/mesh_diffusion/latents/layers.py#L176) 
+Part of the official Google code release for ["Single Mesh Diffusion Models with Field Latents for Texture Generation" at CVPR 2024](https://single-mesh-diffusion.github.io/).
 
-The official implementation of field convolution from the ICCV 2021 paper and oral presentation.
+# Field Conv
+The official implementation of field convolutions from the ICCV 2021 paper and oral presentation.
 
 <img src="fig/scatter_vs_gather.png" width="80%">
 
